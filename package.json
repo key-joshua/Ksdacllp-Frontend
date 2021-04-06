@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "lint": "eslint . --fix",
     "start": "serve -s build",
     "build": "react-scripts build",
     "client": "react-scripts start",
-    "lint": "eslint . --fix"
+    "test": "react-scripts test --env=jsdom --coverage --watchAll=false"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,10 +29,12 @@
     "@fortawesome/free-regular-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
+    "@testing-library/react": "^11.2.6",
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "google-map-react": "^2.1.9",
     "google-maps-react": "^2.0.6",
+    "jest-dom": "^4.0.0",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",

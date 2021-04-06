@@ -25,8 +25,8 @@ class ResendVerificationLink extends Component {
 
   UNSAFE_componentWillReceiveProps(props) {
     if (props.loadedData === true) {
-      toast.error(props.data.message);
-      setTimeout(() => { this.setState({ result: props.data.message }); }, successTimeOut);
+      toast.success(props.data.message);
+      setTimeout(() => { this.setState({ result: props.data.message, formClass: '', }); }, successTimeOut);
     }
 
     if (props.loadedData === false) {

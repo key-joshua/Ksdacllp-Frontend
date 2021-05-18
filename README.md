@@ -1,12 +1,12 @@
 # FRONTEND CHALLEGE
 
-- This Frontend Challenge
+- This Frontend Challenge.
 
 #### This is the Hosted link of the frontend challenge [Access Web Page Direct]
 
 https://Ksdacllp-dashboard-frontend-challenge.netlify.app/
 
-#### This is the Github repository link of the frontend challenge 
+#### This is the Github repository link of the frontend challenge.
 
 https://github.com/key-joshua/Ksdacllp-Frontend
 

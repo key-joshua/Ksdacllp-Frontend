@@ -8,6 +8,7 @@
 import React, { Component } from 'react';
 import { faTachometerAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Logo from '../../assets/images/logo.png';
 
 import Loading from '../loading/loading';
 
@@ -16,7 +17,7 @@ class navbar extends Component {
     super();
     this.state = {
       result: false,
-      logo: 'https://ksdacllp.com/images/kore_logo.png',
+      logo: Logo,
     };
   }
 
